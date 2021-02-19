@@ -39,7 +39,10 @@ function Buy() {
         <>
             {event ?
                 <div className={Styles.buyContainer}>
+
                     <h3> You are about to score some tickets to </h3>
+                    <h1>{event.artist}  </h1>
+
                     <h3>{event.date} kl {event.from} - {event.to}</h3>
                     <h4> @ {event.location}</h4>
                     <h1> {event.price}  </h1>
