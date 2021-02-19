@@ -17,13 +17,12 @@ const UpdateTicketsContext = createContext(undefined)
 function App() {
 
   const [currentEvent, setCurrentEvent] = useState('');
-  const [purchasedTicket, setPurchasedTicket] = useState('');
+  const [purchasedTicket, setPurchasedTicket] = useState({});
 
 
   const history = useHistory();
 
   useEffect(() => {
-    console.log('test')
     history.push('/events')
   }, [])
 
@@ -48,7 +47,7 @@ function App() {
         </UpdateEventContext.Provider>
       </EventContext.Provider>
     </div>
-  );+
+  );
 }
 
 export { App, EventContext, UpdateEventContext, TicketsContext, UpdateTicketsContext };

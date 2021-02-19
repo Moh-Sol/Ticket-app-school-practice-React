@@ -1,5 +1,4 @@
 .buyContainer {
-    /* background-color: blanchedalmond; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -38,11 +37,11 @@
     line-height: 23px;
     text-align: center;
     color: #37AEAB;
+    padding: 5px 0;
 }
 
 .buyContainer h4 {
-    /* width: 272px;
-    height: 37px; */
+
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
     font-weight: normal;
@@ -65,9 +64,8 @@
 }
 
 .buyContainer :last-child {
-    /* width: 202px;
-    height: 30px; */
-    font-family: Fira Sans;
+
+    font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;

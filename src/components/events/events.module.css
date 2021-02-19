@@ -1,11 +1,100 @@
-.eventContiner {
-    font-size: 20;
+.eventsContiner {
+    height: 100%;
 }
 
+.eventsContiner h1:first-child {
+    font-family: 'Sansita', sans-serif;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 32px;
+    line-height: 37px;
+    align-items: center;
+    text-align: center;
+    color: #F56B9A;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
 
-.lable{
-
+.lable {
     grid-column: 1/4;
+}
 
+.eventContiner {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    cursor: pointer;
+}
 
+.eventContiner h3:first-of-type {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    grid-row: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.eventContiner h2:first-of-type {
+    grid-column: 2/4;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #F56B9A;
+}
+
+.eventContiner h4:first-of-type {
+    grid-column: 2/4;
+    padding-top: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.eventContiner h5:first-of-type {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D0D0D0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px rgba(255, 255, 255, 0.3);
+    border-style: none none solid none;
+}
+
+.eventContiner h3:last-of-type {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    color: #37AEAB;
+    display: flex;
+    justify-content:flex-end ; 
+    align-items: center;
+    border: 1px rgba(255, 255, 255, 0.3);
+    border-style: none none solid none;
+    margin-right: 25px;
 }
