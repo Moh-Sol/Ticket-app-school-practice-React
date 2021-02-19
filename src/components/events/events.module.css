@@ -1,3 +1,11 @@
 .eventContiner {
     font-size: 20;
 }
+
+
+.lable{
+
+    grid-column: 1/4;
+
+
+}

@@ -12,18 +12,36 @@ function Tickets() {
         <>
             {ticket ?
                 <div className={Styles.ticketContainer}>
-                    <h1> Tickets </h1>
-                    <h4>WHAT</h4>
-                    <h2>{ticket.artist}</h2>
-                    <h4>WHERE</h4>
-                    <h2>{ticket.location}</h2>
-                    <h4>WHEN</h4>
-                    <h2>{ticket.date}</h2>
-                    <h4>FROM</h4>
-                    <h2>{ticket.from}</h2>
-                    <h4>TO</h4>
-                    <h2>{ticket.to}</h2>
-                </div> : <Error />}
+                    <h1 className={Styles.lable}> Tack för din beställning  </h1>
+
+                    <div className={Styles.ticketInfo} >
+
+
+                        <div className={Styles.artist} >
+                            <h4>WHAT</h4>
+                            <h2>{ticket.artist}</h2>
+                        </div>
+                        <div className={Styles.location}>
+                            <h4>WHERE</h4>
+                            <h2>{ticket.location}</h2>
+                        </div>
+                        <div className={Styles.time}>
+                            <h4>WHEN</h4>
+                            <h2>{ticket.date}</h2>
+                        </div>
+                        <div className={Styles.time}>
+                            <h4>FROM</h4>
+                            <h2>{ticket.from}</h2>
+                        </div>
+                        <div className={Styles.time}>
+                            <h4>TO</h4>
+                            <h2>{ticket.to}</h2>
+                        </div>
+                    </div>
+                    <div />
+                </div> : <Error />
+            }
+
         </>
 
     );

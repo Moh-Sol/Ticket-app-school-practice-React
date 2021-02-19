@@ -1,0 +1,84 @@
+.buyContainer {
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.buyContainer :first-child {
+    width: 202px;
+    height: 27px;
+    margin: 100px auto;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.buyContainer h1:first-of-type {
+    font-family: 'Sansita', sans-serif;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 35px;
+    line-height: 41px;
+    align-items: center;
+    text-align: center;
+    color: #F56B9A;
+}
+
+.buyContainer h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #37AEAB;
+}
+
+.buyContainer h4 {
+    /* width: 272px;
+    height: 37px; */
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.buyContainer h1:last-of-type {
+    margin-top: 130px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #F56B9A;
+}
+
+.buyContainer :last-child {
+    /* width: 202px;
+    height: 30px; */
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: block;
+    width:290px;
+    height:60px;
+    background: #37AEAB;
+    border-radius: 3px;
+}

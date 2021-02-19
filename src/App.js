@@ -20,12 +20,12 @@ function App() {
   const [purchasedTicket, setPurchasedTicket] = useState('');
 
 
-  // const history = useHistory();
+  const history = useHistory();
 
-  // useEffect(() => {
-  //   history.push('/events')
-  // }, [])
-
+  useEffect(() => {
+    console.log('test')
+    history.push('/events')
+  }, [])
 
 
 
@@ -38,7 +38,6 @@ function App() {
           <TicketsContext.Provider value={purchasedTicket}>
             <UpdateTicketsContext.Provider value={setPurchasedTicket}>
               <Switch>
-                <Route path="/" component={Events} exact />
                 <Route path="/events" component={Events} />
                 <Route path="/buy" component={Buy} />
                 <Route path="/tickets/:id" component={Tickets} />
@@ -49,7 +48,7 @@ function App() {
         </UpdateEventContext.Provider>
       </EventContext.Provider>
     </div>
-  );
+  );+
 }
 
 export { App, EventContext, UpdateEventContext, TicketsContext, UpdateTicketsContext };
